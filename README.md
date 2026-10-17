@@ -195,4 +195,3 @@ The deployment expects `GCP_PROJECT_ID` and optionally `GCP_REGION` and `SERVICE
 ## Prototype boundaries
 
 FinDoc Assist supports triage, not autonomous treasury execution. The examples are synthetic; the app does not connect to Outlook, SWIFT, a bank, or a payment system. It does not verify beneficiary account changes, approve margin, send or recall payments, or provide financial advice. Production use would need approved data ingestion, access controls, privacy and retention policies, audited human review, and evaluation on representative labeled communications.
-

@@ -1,0 +1,26 @@
+.env
+.env.*
+!.env.example
+.next/
+out/
+backend/app/static/
+node_modules/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.log
+
+# Local credentials and private keys
+.credentials/
+credentials/
+.secrets/
+secrets/
+*.key
+*.pem
+*.p12
+*.pfx
+*.jks
+*credential*.json
+*service-account*.json
+client_secret*.json
